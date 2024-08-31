@@ -58,16 +58,23 @@ The backend is deployed and can be accessed at the following URL:
 
 [Backend Deployment Link](https://geeksynergy-wmak.onrender.com)
 
-![Backend Photo]()
+#### Backend Photo
+![Screenshot 2024-08-31 145922](https://github.com/user-attachments/assets/410c30bb-f29c-4fea-b9ef-6537ba83c2c4)
+
+
 ### Frontend Deployment
 
 The frontend, which interacts with this backend, is deployed at the following URL:
 
 [Frontend Deployment Link](https://geeksynergy-assignment-ashish.netlify.app)
 
-![Frontend Photo]()
-![Frontend Photo]()
-![Frontend Photo]()
+#### Frontend Photo
+![Screenshot 2024-08-31 150428](https://github.com/user-attachments/assets/3e74818e-f952-4dd3-aa8c-2c329f4e60ed)
+![Screenshot 2024-08-31 150447](https://github.com/user-attachments/assets/637c3aa4-a225-4b78-af2d-88f116e34dd4)
+![Screenshot 2024-08-31 150508](https://github.com/user-attachments/assets/1e6204d6-330c-4aa7-b85c-a63691fc243d)
+
+
+
 ## Contact
 
 For more information or inquiries, feel free to reach out:
