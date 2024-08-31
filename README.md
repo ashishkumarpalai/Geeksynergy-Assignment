@@ -75,9 +75,4 @@ The frontend, which interacts with this backend, is deployed at the following UR
 
 
 
-## Contact
 
-For more information or inquiries, feel free to reach out:
-
-- **Email**: [your-email@example.com](er.ashishkumarpalai@gmail.com)
-- **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/ashishkumarpalai/)
