@@ -1,3 +1,15 @@
+// Check if the token is available in local storage display the signup button
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if the token is available in local storage
+    const token = localStorage.getItem('token');
+
+    // If the token is available, display the anchor tag
+    if (token) {
+        document.getElementById('signup').style.display = 'none';
+    }else{
+        document.getElementById('signup').style.display = 'block';
+    }
+});
 
 async function fetchUsers() {
     const response = await fetch('https://geeksynergy-wmak.onrender.com/user');

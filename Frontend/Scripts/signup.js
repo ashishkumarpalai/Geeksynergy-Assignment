@@ -1,20 +1,30 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const loginToggle = document.getElementById("login-toggle");
-    const signupToggle = document.getElementById("signup-toggle");
+    const loginToggle = document.getElementById("signup-toggle");
+    const signupToggle = document.getElementById("login-toggle");
     const loginForm = document.getElementById("login-form");
     const signupForm = document.getElementById("signup-form");
-
+    loginForm.style.display = "none";
+    signupForm.style.display = "block";
+    signupToggle.style.backgroundColor = "#0056b3";
+    signupToggle.style.color = "white";
+    signupToggle.style.borderRadius="5px";
+    loginToggle.style.borderRadius="5px";
+    loginToggle.style.backgroundColor = "transparent";
     loginToggle.addEventListener("click", function () {
         loginForm.style.display = "block";
         signupForm.style.display = "none";
-        loginToggle.style.backgroundColor = "#eee";
+        loginToggle.style.backgroundColor = "#0056b3";
+        loginToggle.style.color = "white";
+        signupToggle.style.color = "black";
         signupToggle.style.backgroundColor = "transparent";
     });
 
     signupToggle.addEventListener("click", function () {
         loginForm.style.display = "none";
         signupForm.style.display = "block";
-        signupToggle.style.backgroundColor = "#eee";
+        signupToggle.style.backgroundColor = "#0056b3";
+        signupToggle.style.color = "white";
+        loginToggle.style.color = "black";
         loginToggle.style.backgroundColor = "transparent";
     });
 
@@ -55,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     // Redirect to another page after a delay
                     setTimeout(function () {
-                        window.location.href = "../index.html";
+                        window.location.href = "../page/content.html";
                     }, 2000); // 2000 milliseconds (2 seconds) delay
                 } else {
                     Swal.fire({
